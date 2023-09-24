@@ -63,7 +63,7 @@ def calculate_demographic_data(print_data=True):
   top_india_occupation.reset_index(inplace=True)
   top_IN_occupation= top_india_occupation.loc[0,'occupation']
 
-    # DO NOT MODIFY BELOW THIS LINE
+
 
   if print_data:
         print("Number of each race:\n", race_count) 
